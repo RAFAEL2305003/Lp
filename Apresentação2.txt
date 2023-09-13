@@ -1,0 +1,57 @@
+Apresentação do aluno e tema: 
+
+	- Boa tarde, meu nome é Rafael e eu vou falar um pouco sobre a linguagem C.
+
+Introdução:
+	
+	- C é uma linguagem de programação muito famosa, de propósito geral, mas é muito utilizada na criação de compiladores e sistemas operacionais. Ela é uma linguagem de alto nível, com uma sintaxe simples e fácil de compreender, por isso que ela é uma linguagem muito utilizada para o ensino de programação.
+	
+História da linguagem:
+
+	- A linguagem C foi criada em 1972 por Dennis Ritchie, que trabalhava na Bell Labs, uma divisão da AT&T. Ele tinha que desenvolver uma nova versão do sistema operacional UNIX para o computador DEC PDP_11. Para fazer isso, ele se inspirou em duas linguagens anteriores:
+	BCPL, criada em 1967 por Martin Richards no Reino Unido, destinada à criação de sistemas operacionais.
+	B, criada em 1969 por Ken Thompson na Bell Labs, usada nas primeiras versões do UNIX para o PDP-11.
+	No entanto, tanto BCPL quanto B tinham problemas: eram lentas, limitadas e não tinham tipos de dados definidos. Isso significa que os programadores precisavam cuidar de como os dados eram interpretados, o que tornava o desenvolvimento complicado.
+	Vendo que o sistema operacional UNIX precisava ser feito em uma linguagem mais eficiente, Dennis Ritchie criou a linguagem C. Ele pegou conceitos das linguagens B e BCPL, mas adicionou recursos importantes, como tipos de dados, 	tornando-a muito mais poderosa e fácil de usar. 
+
+Cronologia: 
+	
+	- A linguagem C foi criada em 1972 por Dennis Ritchie;
+	- Em 1979, o livro "The C Programming Language", escrito por Brian Kernigham e Dennis Ritchie, foi lançado e desempenhou um papel fundamental na popularização da linguagem C nos anos 80.
+	- A rápida popularização do C levou a muitas variações da linguagem, o que causou incompatibilidades entre diferentes sistemas. Isso era um problema para programadores que precisavam escrever programas que funcionassem em diferentes computadores. Para resolver esse problema, a ANSI começou a trabalhar em uma padronização da linguagem C em 1983. Em 1989, esse padrão foi aprovado e ficou conhecido como ANSI C.
+	- Em 1999, C ganhou uma nova padronização chamada de C99, e essa padronização ocrreu para corrigir limitações e ambiguidades do ANSI C. Essa padronização incluiu a biblioteca stdbool para trabalhar com valores do tipo boleano, por que antes C tomava tudo que fosse == 0 e nulo como falso e tudo que fosse != 0 e não nulo como verdadeiro. Também incluiu os comentários em uma linha que veio do C++.
+	- Em 2011, foi lançada a padronização C11, com o objetivo de modernizar a linguagem. Ela introduziu o tipo uchar para lidar com codificação de caracteres e a biblioteca fenv.h para tratar arredondamento e exceções em operações de ponto flutuante.
+	- Em 2017, houve uma padronização menor, chamada C17, que corrigiu alguns problemas do C11, sem introduzir mudanças significativas na linguagem.
+
+Principais características:
+	
+	- A linguagem C pertence ao paradigma imperativo procedural. Isso significa que um programa em C é estruturado em procedimentos e é executado sequencialmente. Em um programa C, o programador descreve como o programa deve realizar uma tarefa, especificando uma sequência de comandos.
+	- Ela possui uma tipagem estática e fraca. A tipagem estática requer que o programador especifique o tipo de uma variável ao declará-la, e a verificação de tipo ocorre durante o tempo de compilação do código. A tipagem fraca permite que um dado seja tratado como se fosse de outro tipo, por exemplo, gravar um float e acessá-lo como se fosse um int. 
+	- A linguagem C permite o gerenciamento de memória, o que significa que o programador pode alocar, liberar ou realocar memória de acordo com sua necessidade. É por isso que C é amplamente utilizada na criação de compiladores e sistemas operacionais.
+	- C é uma linguagem portável, o que significa que um programa escrito em um sistema operacional A pode ser compilado com pouca ou nenhuma alteração em um sistema operacional B.
+	- Ela possui uma sintaxe simples, usando chaves {} para delimitar blocos de código e ponto e vírgula ; para separar instruções e declarações.
+
+	Ponteiros: Ponteiros em C são referências a locais na memória, essenciais para alocação dinâmica, estruturas de dados complexas e passagem eficiente de argumentos em funções. Eles permitem acesso direto à memória, sendo fundamentais na linguagem C.
+
+Linguagens relacionadas: 
+	
+	Linguagens influenciadoras: 
+		- BCPL: A linguagem BCPL influenciou o C ao introduzir estruturas de controle, como if, else, for, e while, que foram adotadas pelo C em sua sintaxe.
+		- B: A linguagem B contribuiu para a criação do C ao introduzir a ideia de delimitadores com chaves (chaves) e uma sintaxe simplificada, que foram adotadas pelo C.
+	Linguagens influenciadas: 
+		- C++: O C++ é uma linguagem que compartilha uma sintaxe muito semelhante com C, mas estende a linguagem com recursos de orientação a objetos.
+		- Objective-C: O Objective-C tem uma sintaxe semelhante à linguagem C, mas também incorpora recursos de orientação a objetos.
+		- Java, C#, PHP, Go, Rust: Essas linguagens têm uma sintaxe que lembra C e herdaram muitos tipos e conceitos do C, mas também incluem suporte à programação orientada a objetos e, em alguns casos, sistemas de gerenciamento de memória, como garbage collection.
+	Linguagens similares: 
+		- C++, Objective-C, D: Essas linguagens são muito parecidas com C, tanto em relação à tipagem quanto à sintaxe, e frequentemente são usadas para desenvolvimento de sistemas de alto desempenho.
+	Linguagens opostas: 
+		- JavaScript, Python e Ruby: Essas linguagens são consideradas opostas ao C devido às diferenças significativas em sintaxe, tipagem e modelo de execução. Elas são linguagens interpretadas, enquanto C é uma linguagem compilada. 
+
+Considerações finais: 
+
+	- Versátil: A linguagem C é versátil porque pode ser usada em uma ampla variedade de aplicativos e cenários, desde desenvolvimento de sistemas operacionais e software de sistemas embarcados até aplicativos de desktop e muito mais.
+	- Durável: A durabilidade da linguagem C refere-se ao fato de que ela existe há décadas e ainda é amplamente usada na indústria de software. Sua longevidade é devido à sua eficiência, portabilidade e capacidade de adaptação às mudanças tecnológicas.
+	- Eficiente: C é conhecida por sua eficiência em termos de uso de recursos de hardware. Ela permite um controle direto sobre a memória e os registradores do computador, tornando-a apropriada para o desenvolvimento de aplicativos de alto desempenho, como sistemas operacionais.
+	- Complexa: Embora seja uma linguagem poderosa, a C também pode ser considerada complexa, especialmente para iniciantes. Ela oferece muitas funcionalidades e permite que os programadores acessem diretamente o hardware, o que pode levar a erros difíceis de depurar se não for usada corretamente.
+	
+		
