@@ -60,8 +60,10 @@ public class Lzw {
         String result = "", s = "", c = "";
         int pos = compressedText[0], i = 1, newPos = 0, length = posMax(compressedText);
         result += MapDecompress.get(pos);
+        
         while(i < length) {
           newPos = compressedText[i];
+          
           if(!MapDecompress.containsKey(newPos)) {
             s = MapDecompress.get(pos);
             s = s + c;
@@ -102,7 +104,6 @@ public class Lzw {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //int in;
         
         System.out.print("Your input: ");
         String input = sc.nextLine();
@@ -111,21 +112,12 @@ public class Lzw {
         
         System.out.print("Compressed text: ");
 
-        for (int i = 0; i < result.length; i++) {
+        for (int i = 0; i < result.length; i++) 
           if(result[i] != -1)
             System.out.print(result[i] + " ");
-        }
          
         System.out.println("\nDescompressed text: " + decompress(result) + "\n");
         
-        /*System.out.print("You want to display the compression and decompression dictionary, if yes, type 1, otherwise, type 0: ");
-        in = Integer.valueOf(sc.nextLine());
-        
-        if(in == 1){
-            showCompressedMap();
-            showDecompressedMap();
-        }*/
-
         showCompressedMap();
         showDecompressedMap();
 
