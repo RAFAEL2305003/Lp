@@ -1,0 +1,4 @@
+# Principais comandos do terminal linux
+#
+#
+#

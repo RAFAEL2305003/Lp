@@ -1,0 +1,33 @@
+# Lista de atalhos para usar o nano:
+#
+# ^ + o = Salvar como
+# ^ + x = Sair do nano
+# ^ + s = Salvar
+# ^ + c = Cancelar qualquer operação no nano e/ou mostrar informações sobre o arquivo(Ex: quantidade de linhas, caracteres, etc...)
+# M + > = Avançar para o próximo arquivo(Caso ele exista)
+# M + < = Volar para o arquivo anterior(Caso ele exixta)
+# ^ + R = Abrir um arquivo existente no buffer atual(Adicionar ao arquivo que ja existe)
+# M + f = (Depois de digitar ^ + R)Abrir um arquivo existente em um novo buffer
+# M + a = Marcar alguma parte do texto para copia(Também server para desativar o mesmo, e seta para baixo marca a linha toda!)
+# M + 6 = Faz a copia da parte selecionada pelo comando acima e envia para um cut buffer
+# ^ + u = Pega o que foi copiado para o cut buffer e cola no arquivo
+# ^ + k = Recorta a parte que foi selecionada e também envia para o cut buffer
+# ^ + w = Pesquisar por alguma ocorrência de algum padrão no arquivo
+#	Atalhos para essa pesquisa: 
+#		M + C = Habilitar case sensitive
+#		M + R = Habilitar expressões regulares
+#		M + B = Habilitar pesquisa de baixo para cima
+# ^ + \ = Pesquisar e trocar uma determinada ocorrência por outra
+# M + \ = Vai para o início do arquivo
+# M + / = Vai para o fim do arquivo
+# ^ + a = Indo para o início da linha
+# ^ + e = Indo para o fim da linha
+# ^ + -> ou ^ + <- = Para avançar ou retroceder uma palavra, respectivamente
+# ^ + g = Ir para o menu de ajuda
+# M  + x = Desabilitar menu de ajuda
+# M + y = Desabilitar/Habilitar a coloração de sintáxe
+# M + SHIFT + { = Recua identação
+# M + SHIFT + } = Avança a identação
+# M + 3 = Comenta a linha atual com '#'
+# ^ + p = subir uma linha
+# ^ + t = Executar

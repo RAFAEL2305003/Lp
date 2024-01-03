@@ -1,0 +1,25 @@
+# Habilitando o case sensitive para pesquisas(Diferenciação de minúsculas e maiúsculas)
+set casesensitive
+
+# Habilitando um barra minimalista para o nano
+set constantshow
+
+# Desabilitando barra de ajuda
+set nohelp
+
+# Habilitando a inserção de um novo arquivo em um buffer novo
+set multibuffer
+
+# Habilitando quebra de linhas suaves
+set softwrap
+
+# Colocando o tab para 4 espaços
+set tabsize 4
+
+# Colocando casamento de caracteres
+set matchbrackets "(<[{}]>)"
+
+# Fechndo cacteres
+set brackets ""')>]}"
+
+set speller "aspell -x -c"
